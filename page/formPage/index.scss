@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+.container {
+  width: 100%;
+  padding: 120px 336px 121px 336px;
+  background: #f4f4f4;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    h1 {
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    h2 {
+      color: #000;
+      text-align: center;
+      font-family: Inter;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+    }
+    input {
+      width: 840px;
+      padding: 20px 40px;
+      &::placeholder {
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+
+    textarea {
+      width: 840px;
+      height: 195px;
+      padding: 20px 40px;
+      &::placeholder {
+        color: #000;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+    }
+  }
+}
